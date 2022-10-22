@@ -6,16 +6,18 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/logo.png'
+import Switch  from './Switch';
 
 
-const Navbar = () => {
+const Navbar = ({setDarkMode}) => {
   const [nav, setNav] = useState(false);
+  const [DarkModeLocal, setDarkModeLocal] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
-  const [position, setPosition] = useState('fixed')
   const router = useRouter();
 
+  
   useEffect(() => {
     if (
       router.asPath === '/property' ||
@@ -45,17 +47,18 @@ const Navbar = () => {
     };
     window.addEventListener('scroll', handleShadow);
   }, []);
-
   return (
     <div 
       style={{ backgroundColor: `${navBg}` }}
       className={
+       
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
-        }      
+          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 '
+          : 'fixed w-full h-20 z-[100] '
+        }
+      
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gray-900 '>
         <Link href='/'>
           <a>
             <Image
@@ -68,22 +71,29 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex '>
+            <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>
               <Link href='/#contact'>Contact</Link>
             </li>
+            <li onClick={() => {
+              console.log(DarkModeLocal);
+              setDarkModeLocal(!DarkModeLocal)
+              setDarkMode(!DarkModeLocal)}} className='ml-10 text-sm '>
+            <Switch  />
+            </li>
+            
           </ul>
           {/* Hamburger Icon */}
           <div

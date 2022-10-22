@@ -12,7 +12,7 @@ import AWS from '../public/assets/skills/aws.png';
 
 export default function Skills() {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div id='skills' className='w-full lg:h-screen p-2 dark:bg-gray-900 dark:text-white'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#a82e2e]'>
           Skills

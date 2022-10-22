@@ -53,7 +53,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 
 export default function CustomizedSwitches() {
   return (
-    <FormGroup>
+    <FormGroup className='z-10'>
       <FormControlLabel
         control={<MaterialUISwitch size='5' defaultChecked />}
       />
