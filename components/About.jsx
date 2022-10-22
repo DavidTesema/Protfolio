@@ -31,7 +31,7 @@ export default function About() {
             developement and various front-end technologies.
           </p>
           <Link href="/#projects">
-            <p className="py-2  underline cursor-pointer text-red-500">
+            <p className="py-2  underline cursor-pointer text-red">
               Check out some of my latest projects.
             </p>
           </Link>
