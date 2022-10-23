@@ -1,12 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../public/assets/about.jpg";
+import AboutImg from "../public/assets/David.jpg";
 
 export default function About() {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16  dark:bg-gray-900">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 text-gray-600 dark:text-white" >
+    <div
+      id="about"
+      className="w-full md:h-screen p-2 flex items-center py-16  dark:bg-gray-900"
+    >
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 text-gray-600 dark:text-white">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#a82e2e]">
             About
@@ -23,12 +26,12 @@ export default function About() {
             specific language, but choosing the best tool for the job.
           </p>
           <p className="py-2 ">
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+            I started web developement in 2020 managing multiple e-commerce
+            websites on Shopify. I'm looking for a
+            challenging role in a technology environment. I like to work in a
+            team and I am highly motivated to gain knowledge in the field. I
+            also have a great desire for coding and new technologies. In my
+            spare time I like to fly drones and travel.
           </p>
           <Link href="/#projects">
             <p className="py-2  underline cursor-pointer text-red">
@@ -36,7 +39,7 @@ export default function About() {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="w-full my-2 h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl ">
           <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>

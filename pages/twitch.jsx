@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const twitch = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full h-full dark:bg-gray-900 dark:text-white'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image

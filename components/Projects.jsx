@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
+import djiStore from "../public/assets/projects/DJI-STORE.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem";
@@ -23,8 +23,8 @@ export default function Projects() {
             tech="React JS"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
+            title="Dji Store"
+            backgroundImg={djiStore}
             projectUrl="/crypto"
             tech="React JS"
           />

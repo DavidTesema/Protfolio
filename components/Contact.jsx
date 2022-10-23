@@ -7,12 +7,15 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import Circle from "./Circle";
 
 export default function Contact() {
   return (
     <div
-      id="about"
-      className="w-full md:h-screen p-2 flex flex-col items-center py-16  dark:bg-gray-900"
+      id="contact"
+      className="w-full md:h-screen p-2 flex flex-col items-center py-16 lg:hidden dark:bg-gray-900"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 text-gray-600 dark:text-white">
         <div className="col-span-1">
@@ -70,9 +73,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image src={AboutImg} className="rounded-xl" alt="/" />
-        </div>
+    
       </div>
       <div className="flex justify-center py-12">
         <Link href="/">
