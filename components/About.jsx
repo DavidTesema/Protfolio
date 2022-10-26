@@ -35,7 +35,7 @@ export default function About() {
             also have a great desire for coding and new technologies. In my
             spare time I like to fly drones and travel.
           </p>
-          <a href="https://drive.google.com/drive/my-drive">
+          <a href="https://content.celero.io/s/9a6a90bc/david-tesema-cv/">
            <button className="px-3 py-2 bg-black">
             Download CV
            </button>
