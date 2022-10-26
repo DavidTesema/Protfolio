@@ -1,15 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../public/assets/about.jpg";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineMail ,AiOutlinePhone} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import Circle from "./Circle";
+
 
 export default function Contact() {
   return (
@@ -57,14 +53,15 @@ export default function Contact() {
                       <FaGithub />
                     </div>
                   </a>
-
+                  <Link href={"mailto:davidtassama464@gmail.com"}>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 dark:shadow-gray-700  cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
-                  <Link href="/resume">
+                  </Link>
+                  <Link href="tel:+972522958514">
                     <a>
                       <div className="rounded-full shadow-lg shadow-gray-400  dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill />
+                        <AiOutlinePhone />
                       </div>
                     </a>
                   </Link>

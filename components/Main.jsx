@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineMail ,AiOutlinePhone } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+// AiOutlinePhone
 
 export default function Main() {
   return (
@@ -36,14 +36,14 @@ export default function Main() {
                 <FaGithub />
               </div>
             </a>
-            <Link href="#">
+            <Link href="mailto:davidtassama464@gmail.com">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="#">
+            <Link href="tel:+972522958514">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
+                <AiOutlinePhone />
               </div>
             </Link>
           </div>

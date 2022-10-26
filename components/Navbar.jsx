@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu,AiOutlinePhone } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
@@ -20,7 +20,7 @@ const Navbar = ({setDarkMode}) => {
   
   useEffect(() => {
     if (
-      router.asPath === '/property' ||
+      router.asPath === '/dji' ||
       router.asPath === '/crypto' ||
       router.asPath === '/netflix' ||
       router.asPath === '/twitch'
@@ -83,9 +83,6 @@ const Navbar = ({setDarkMode}) => {
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>
               <Link href='/#projects'>Projects</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b dark:text-white'>
-              <Link href='/#contact'>Contact</Link>
             </li>
             <li onClick={() => {
               console.log(DarkModeLocal);
@@ -180,7 +177,7 @@ const Navbar = ({setDarkMode}) => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/davidtesema/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -189,7 +186,7 @@ const Navbar = ({setDarkMode}) => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/DavidTesema'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -197,7 +194,7 @@ const Navbar = ({setDarkMode}) => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+                <Link href='mailto:davidtassama464@gmail.com'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
@@ -205,12 +202,12 @@ const Navbar = ({setDarkMode}) => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/resume'>
+                <Link href='tel:+972522958514'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <BsFillPersonLinesFill />
+                    <AiOutlinePhone />
                   </div>
                 </Link>
               </div>
