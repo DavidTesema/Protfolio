@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import AboutImg from "../public/assets/David.jpg";
+// import CV from "../public/assets/file/David-Tesema-CV.pdf" 
 
 export default function About() {
   return (
@@ -33,11 +34,7 @@ export default function About() {
             also have a great desire for coding and new technologies. In my
             spare time I like to fly drones and travel.
           </p>
-          <a href="https://content.celero.io/s/9a6a90bc/david-tesema-cv/">
-           <button className="px-3 py-2 bg-black">
-            Download CV
-           </button>
-          </a>
+        
         </div>
         <div className="w-full my-2 h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-xl ">
           <Image src={AboutImg} className="rounded-xl" alt="/" />
