@@ -14,7 +14,7 @@ export default function Main() {
           </h1>
           <h1 className="py-2 ">A Front-End Web Developer</h1>
           <p className="py-4sm:max-w-[70%] m-auto">
-            I'm focused on building responsive front-end web applications
+            I&apos;m focused on building responsive front-end web applications
             integrating back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
