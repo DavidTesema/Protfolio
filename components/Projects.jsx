@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import djiStore from "../public/assets/projects/DJI-STORE.jpg";
-import movies from "../public/assets/projects/movies.jpg";
+import movies from "../public/assets/projects/log-in.jpg";
 
 import ProjectItem from "./ProjectItem";
 
@@ -24,7 +24,7 @@ export default function Projects() {
           <ProjectItem
             title="movies"
             backgroundImg={movies}
-            projectUrl="/crypto"
+            projectUrl="/movies"
             tech="React JS"
           />
           <ProjectItem

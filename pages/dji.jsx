@@ -35,14 +35,14 @@ const DjiStore = () => {
             quia. Sed ipsam dolor dolorem.
           </p>
           <a
-            href="https://github.com/fireclint/crypto-react-firebase"
+            href="https://github.com/DavidTesema/DJI_STORE-React.js"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://cryptobase-yt.web.app/"
+            href="https://tourmaline-sunburst-8c0b2f.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >

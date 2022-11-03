@@ -24,7 +24,7 @@ const Navbar = ({ setDarkMode }) => {
   useEffect(() => {
     if (
       router.asPath === "/dji" ||
-      router.asPath === "/crypto" ||
+      router.asPath === "/movies" ||
       router.asPath === "/netflix" ||
       router.asPath === "/twitch"
     ) {
@@ -90,7 +90,6 @@ const Navbar = ({ setDarkMode }) => {
             </li>
             <li
               onClick={() => {
-                console.log(DarkModeLocal);
                 setDarkModeLocal(!DarkModeLocal);
                 setDarkMode(!DarkModeLocal);
               }}
