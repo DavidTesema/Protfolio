@@ -25,7 +25,7 @@ const Navbar = ({ setDarkMode }) => {
     if (
       router.asPath === "/dji" ||
       router.asPath === "/movies" ||
-      router.asPath === "/netflix" ||
+      router.asPath === "/nio" ||
       router.asPath === "/twitch"
     ) {
       setNavBg("transparent");

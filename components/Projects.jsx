@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import djiStore from "../public/assets/projects/DJI-STORE.jpg";
+import nioCars from "../public/assets/projects/nio-car.jpg";
 import movies from "../public/assets/projects/log-in.jpg";
 
 import ProjectItem from "./ProjectItem";
@@ -21,16 +22,16 @@ export default function Projects() {
             projectUrl="/dji"
             tech="React JS"
           />
+            <ProjectItem
+              title="NIO CARS"
+              backgroundImg={nioCars}
+              projectUrl="/nio"
+              tech="React JS"
+            />
           <ProjectItem
             title="movies"
             backgroundImg={movies}
             projectUrl="/movies"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Netflix App"
-            backgroundImg={djiStore}
-            projectUrl="/netflix"
             tech="React JS"
           />
           <ProjectItem
