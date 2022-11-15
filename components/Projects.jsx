@@ -22,24 +22,24 @@ export default function Projects() {
             projectUrl="/dji"
             tech="React JS"
           />
-            <ProjectItem
+            {/* <ProjectItem
               title="NIO CARS"
               backgroundImg={nioCars}
               projectUrl="/nio"
               tech="React JS"
-            />
+            /> */}
           <ProjectItem
             title="movies"
             backgroundImg={movies}
             projectUrl="/movies"
             tech="React JS"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Twitch UI"
             backgroundImg={djiStore}
             projectUrl="/twitch"
             tech="Next JS"
-          />
+          /> */}
         </div>
       </div>
     </div>
