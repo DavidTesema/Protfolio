@@ -27,12 +27,13 @@ const DjiStore = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-            non dolores harum qui, blanditiis voluptatibus, tenetur quasi,
-            facere ab officiis vero iure in dolorem rerum pariatur nihil impedit
-            officia! Placeat veritatis, eum accusantium vitae animi molestiae,
-            at maiores temporibus dolores est cumque, ducimus debitis ipsum
-            quia. Sed ipsam dolor dolorem.
+            An E-commerce store of drones, the leader in the development and
+            production of innovative photography technology for private and
+            commercial use. <br /> <strong> Server side:</strong> servers
+            developed by Node.js and Express, manage databases implemented by
+            MongoDB Atlas and object modeling performed by Mongoose. <br />{" "}
+            <strong> Client side:</strong> Developed in React.js and Redux, the
+            design is realized with Material-UI,Three.js and Scss.
           </p>
           <a
             href="https://github.com/DavidTesema/DJI_STORE-React.js"
