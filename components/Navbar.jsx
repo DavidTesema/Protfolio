@@ -86,7 +86,7 @@ const Navbar = ({ setDarkMode }) => {
               <Link href="/#projects">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b dark:text-white">
-              <a target="_blank" rel="noreferrer" href="https://content.celero.io/s/f9cc2455/david-tesema-cv/">Resume </a>
+              <a target="_blank" rel="noreferrer" href="https://content.celero.io/s/1d893fbb/david-tesema-cv/">Resume </a>
             </li>
             <li
               onClick={() => {
@@ -171,7 +171,7 @@ const Navbar = ({ setDarkMode }) => {
                   Contact
                 </li>
               </Link>
-              <a target="_blank"  rel="noreferrer" href="https://content.celero.io/s/9a6a90bc/david-tesema-cv/">
+              <a target="_blank"  rel="noreferrer" href="https://content.celero.io/s/1d893fbb/david-tesema-cv/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
