@@ -27,12 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-            non dolores harum qui, blanditiis voluptatibus, tenetur quasi,
-            facere ab officiis vero iure in dolorem rerum pariatur nihil impeding
-            officia! Placeat veritatis, eum accusantium vitae animi molestiae,
-            at maiores temporibus dolores est cumque, ducimus debitis ipsum
-            quia. Sed ipsam dolor dolorem.
+          Development of a movie and subscription system.
           </p>
           <a
             href="https://github.com/DavidTesema/Movies-project"
