@@ -18,11 +18,11 @@ To get started with my_portfolio, you will need to have the following prerequisi
 * npm or yarn
 Once you have these prerequisites installed, you can follow the steps below to set up the app locally:
 
-Clone the repository to your local machine using git clone https://github.com/odedmasala/my_portfolio.git.
-Navigate to the root directory of the project and install the dependencies using npm install or yarn install.
-Start the development server using npm run dev or yarn dev.
-The app should now be running on http://localhost:3000.
-Building for Production
+1.Clone the repository to your local machine using git clone git@github.com:DavidTesema/protfolio.git
+2.Navigate to the root directory of the project and install the dependencies using npm install or yarn install.
+3.Start the development server using npm run dev or yarn dev.
+4.The app should now be running on http://localhost:3000.
+## Building for Production
 To build the app for production, run the following command:
 
 npm run build or yarn build
