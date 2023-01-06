@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# my portfolio
+Welcome to my_portfolio, a personal portfolio website built with Next.js, SCSS, and Tailwind CSS. You can visit the live site at https://david-tesema.netlify.app/
+
+## Project Description
+my_portfolio is a personal portfolio website that showcases my work and experience. It is built with the Next.js framework for the frontend and uses SCSS for styling and Tailwind CSS for responsive design.
+
+## Notable Features
+* Next.js: The app is built using the Next.js framework for efficient and scalable frontend development.
+
+* SCSS: The app uses SCSS for styling, providing a powerful and flexible way to style the website.
+
+* Tailwind CSS: The app uses Tailwind CSS for responsive design, allowing the website to adapt to different screen sizes and devices.
 
 ## Getting Started
+To get started with my_portfolio, you will need to have the following prerequisites installed on your machine:
 
-First, run the development server:
+* Node.js
+* npm or yarn
+Once you have these prerequisites installed, you can follow the steps below to set up the app locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Clone the repository to your local machine using git clone https://github.com/odedmasala/my_portfolio.git.
+Navigate to the root directory of the project and install the dependencies using npm install or yarn install.
+Start the development server using npm run dev or yarn dev.
+The app should now be running on http://localhost:3000.
+Building for Production
+To build the app for production, run the following command:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm run build or yarn build
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This will create a production-ready build of the app in the .next directory.
