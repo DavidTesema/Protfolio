@@ -28,3 +28,7 @@ To build the app for production, run the following command:
 npm run build or yarn build
 
 This will create a production-ready build of the app in the .next directory.
+
+## design
+![1](https://user-images.githubusercontent.com/105584546/211042643-27b88847-8611-46a4-84b0-757928a01c19.jpg)
+![Screenshot 2023-01-06 172331](https://user-images.githubusercontent.com/105584546/211042666-4c73fd40-1fc4-4205-8a77-960a5ed2fbd7.jpg)
