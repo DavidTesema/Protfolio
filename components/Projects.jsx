@@ -4,6 +4,7 @@ import React from "react";
 import djiStore from "../public/assets/projects/DJI-STORE.jpg";
 import nioCars from "../public/assets/projects/nio-car.jpg";
 import movies from "../public/assets/projects/log-in.jpg";
+import media from "../public/assets/projects/dt-media3.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -22,7 +23,7 @@ export default function Projects() {
             projectUrl="/dji"
             tech="React JS"
           />
-            {/* <ProjectItem
+          {/* <ProjectItem
               title="NIO CARS"
               backgroundImg={nioCars}
               projectUrl="/nio"
@@ -34,12 +35,12 @@ export default function Projects() {
             projectUrl="/movies"
             tech="React JS"
           />
-          {/* <ProjectItem
-            title="Twitch UI"
-            backgroundImg={djiStore}
-            projectUrl="/twitch"
-            tech="Next JS"
-          /> */}
+          <ProjectItem
+            title="DT media"
+            backgroundImg={media}
+            projectUrl="/dtMedia"
+            tech="React JS"
+          />
         </div>
       </div>
     </div>
