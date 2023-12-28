@@ -29,12 +29,12 @@ export default function Projects() {
               projectUrl="/nio"
               tech="React JS"
             /> */}
-          <ProjectItem
+          {/* <ProjectItem
             title="movies"
             backgroundImg={movies}
             projectUrl="/movies"
             tech="React JS"
-          />
+          /> */}
           <ProjectItem
             title="DT media"
             backgroundImg={media}
